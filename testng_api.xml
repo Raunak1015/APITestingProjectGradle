@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="api_test_suite" parallel="classes">
+	<test thread-count="5" parallel="classes" name="apiTest">
+		<classes>
+			<class name="com.ibm.security.apitest.Guixml"/>
+			<class name="com.ibm.security.apitest.Instrxml" />
+			<class name="com.ibm.security.apitest.Search" />
+			<class name="com.ibm.security.apitest.Reputation" />
+			<class name="com.ibm.security.apitest.Update" />
+		</classes>
+	</test> <!-- apiTest -->
+</suite> <!-- api_test_suite -->
